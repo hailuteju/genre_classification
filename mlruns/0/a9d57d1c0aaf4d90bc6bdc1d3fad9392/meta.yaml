@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/hailuteju/ML_DevOps_Engineer/genre_classification/mlruns/0/a9d57d1c0aaf4d90bc6bdc1d3fad9392/artifacts
+end_time: 1636690123442
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a9d57d1c0aaf4d90bc6bdc1d3fad9392
+run_uuid: a9d57d1c0aaf4d90bc6bdc1d3fad9392
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1636690121787
+status: 4
+tags: []
+user_id: hailuteju
