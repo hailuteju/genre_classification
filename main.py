@@ -26,7 +26,11 @@ def go(config: DictConfig):
     if "download" in steps_to_execute:
         _ = mlflow.run(
             os.path.join(root_path, "download"),
+<<<<<<< HEAD
             "main",  # entry point
+=======
+            "main", # entry point
+>>>>>>> 1878fa335254a66f084917318254c7c1aa58c03c
             parameters={
                 "file_url": config["data"]["file_url"],
                 # the below 3 parameters specify the output artifact
