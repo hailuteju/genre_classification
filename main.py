@@ -28,9 +28,10 @@ def go(config: DictConfig):
 
         _ = mlflow.run(
             os.path.join(root_path, "download"),
-            "main",
+            "main", # entry point
             parameters={
                 "file_url": config["data"]["file_url"],
+                # the below 3 parameters specify the output artifact
                 "artifact_name": "raw_data.parquet",
                 "artifact_type": "raw_data",
                 "artifact_description": "Data as downloaded"
